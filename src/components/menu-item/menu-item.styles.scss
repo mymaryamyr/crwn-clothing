@@ -7,11 +7,11 @@
     justify-content: center;
     border: 1px solid black;
     margin: 0 7.5px 15px;
-    background-position: center top;
+    background-position: top;
     background-size: 100%;
 
     &.large {
-      height: 380px;
+      height: 370px;
     }
     &:hover {
       cursor: pointer;
@@ -28,6 +28,7 @@
   
     &:last-child {
       margin-left: 7.5px;
+      background-position: center;
     }
   
     .content {
